@@ -1,0 +1,427 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+
+	background-color: #f3f3f3;
+	width:100%;
+	float:left;
+	padding: 5px 0px;
+}
+
+
+.container{
+	width: 1140;
+	margin: 0 auto;
+
+}
+ 
+
+/* ----Header -----*/ 
+.logo{
+    
+	width: 25%;
+	float:left;
+	
+}
+
+.logo img{
+	width:100px;
+	margin-left:100px
+}
+
+.menu{
+
+	width:33.33%
+	float:left;
+}
+
+nav ul{
+    list-style:none;
+
+}
+
+nav ul li{
+    
+	display:inline-block;
+	margin:15px 20px;
+
+}
+
+nav ul li a{
+
+	color:black;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:15px;
+	padding:5px 10px;
+	transition:0.4s ease-in-out;
+	 
+
+}
+
+
+nav ul li a:hover{
+    border:1px solid black;
+     padding:5px 10px;
+    
+
+
+}
+
+.icon{
+
+	width: 33.33% ;
+	float: left;
+	
+}
+
+.icon ul{
+
+	list-style: none;
+
+
+}
+
+.icon ul li{
+	display: inline-block;
+	margin:5px 10px;
+	
+}
+
+.icon ul li a {
+ 	background:black;
+ 	color:white;
+ 	padding:5px 10px;
+ 	font-size:20px;
+	
+}
+
+
+/*-------OFFER SECTION--------*/
+.offer-section{
+    width:100%;
+    float:left;
+	background: url(../img/bg1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:200px 100px;
+
+}
+
+.discount{
+
+    
+
+}
+
+.decor{
+	color:white;
+	font-size:50px;
+
+
+	
+}
+
+.decor button{
+	padding:10px 25px;
+	background-color:black;
+	color:white;
+	border:2px solid white;
+	
+	
+	
+}
+
+/*-------Section2-------*/
+
+.section2{
+
+	width: 100%;
+	float: left;
+	background:white;
+	padding:30px;
+
+}
+
+.shipping{
+	width: 33.33%;
+	float: left;
+
+
+
+}
+.fa.fa-truck{
+	font-size:200px;
+	
+	
+}
+
+.fa.fa-tags{
+	font-size:200px;
+}
+
+.fa.fa-shopping-bag{
+	font-size:200px;
+}
+.icon2{
+	width: 50%;
+	float: left;
+
+}
+
+.text{
+
+	width: 30%;
+	float: left;
+	margin-top:30px;
+
+
+
+}
+
+.text h4{
+	font-size:25px;
+	margin-bottom:5px;
+}
+
+.text p{
+	
+	margin-bottom:10px;
+}
+
+.pricematching{
+	width: 33.33%;
+	float: left;
+
+
+}
+
+.storepick{
+	width: 33.33%;
+	float: left;
+
+}
+/*----top picks----*/
+
+
+.top-picks{
+
+width: 100%;
+
+float: left;
+
+background:#5d3f3d;
+
+padding: 10px 15px;
+}
+
+.top-picks h3{
+	color: white;
+	text-align:center;
+	margin-top:15px;
+}
+
+.shoes{
+
+width: 48%;
+
+float: left;
+
+background: white;
+
+margin: 10px 30px;
+}
+
+.shoespic{
+
+width: 249px;
+
+height: 330px;
+
+margin: 20px 40px;
+}
+
+.watch{
+	width: 45%;
+	float: left;
+	background: white;
+	margin: 10px 30px;
+}
+
+.watchpic{
+	width: 249px;
+	height: 330px;
+	margin: 20px 40px;
+}
+
+.pic{
+	width: 50%;
+	float: left;
+}
+
+.text1{
+	width: 50%;
+	float: left;
+	margin: 10px 0;
+	padding: 30px 0px;
+}
+
+.text1 h2{
+	margin-bottom:20px;
+}
+
+.text1 p{
+	font-size:20px;
+	padding: 0 10px;
+}
+
+.button1{
+	background: black;
+	color: white;
+	padding: 20px 77px;
+	margin: 170px 0;
+	border: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.footer{
+	width: 100%;
+	float: left;
+	background: black;
+
+}
+
+.details{
+
+	width: 45%;
+	float: left;
+
+}
+
+.details1{
+	width: 35%;
+	float: left;
+	margin: 40px 104px;
+}
+
+
+
+.details1 ul{
+
+	color: white;
+}
+
+.details1 ul li{
+
+	list-style: none;
+	margin: 10px 10px;
+}
+
+.details1 ul li a{
+
+	color: white;
+	text-decoration: none;
+}
+
+.details2{
+	width: 35%;
+	float: left;
+	margin: 40px 20px;
+}
+
+.details2 ul{
+	color: white;
+}
+
+.details2 ul li{
+
+	list-style: none;
+	margin: 10px 10px;
+}
+
+.details2 ul li a{
+
+color: white;
+
+text-decoration: none;
+}
+
+
+
+.locations{
+	width: 45%;
+	float: left;
+
+
+
+}
+
+.footer h3{
+	color:white;
+	margin: 23px 111px;
+	font-size: xx-large;
+}
+
+.london{
+
+	width: 30%;
+	float: left;
+
+}
+
+.berlin{
+
+	width: 30%;
+	float: left;
+
+}
+
+.california{
+	width: 30%;
+	float: left;
+
+
+}
+
+.london h4{
+	color:white;
+	margin: 15px -2px;
+}
+
+.london p{
+	color:white;
+}
+
+.berlin h4{
+	color:white;
+	margin: 15px -2px;
+}
+
+.berlin p{
+	color:white;
+}
+
+.california h4{
+	color:white;
+	margin: 15px -2px;
+}
+
+.california p{
+	color:white;
+}
+
+.whiteline{
+	background-color: white;
+	height: 2px;
+	margin: 35px 107px;
+}
